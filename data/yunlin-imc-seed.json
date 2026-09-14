@@ -1,0 +1,29 @@
+{
+  "source_url": "https://www.yl.imc.org.tw/雲林imc/關於imc/",
+  "collected_at": "2026-09-14",
+  "organization": {
+    "name": "雲林縣國際工商經營研究社",
+    "english_name": "The Yunlin International Management Council",
+    "abbreviation": "IMC",
+    "founded": "2009-10-10",
+    "founding_place": "劍湖山王子大飯店",
+    "registration_number": "25375519",
+    "address": "640雲林縣斗六市斗六二路247號",
+    "phone": "0911-966-647",
+    "email": "ylimcorg@gmail.com",
+    "purpose": "增進工商界人士之友誼，建立互助合作精神，研究與進修工商經營管理問題，培養健全人格與領導才能，推展社會福利及職業技能訓練。"
+  },
+  "presidents": [
+    {"term": 17, "name": "鄭文太", "status": "現任（來源頁標示）"},
+    {"term": 16, "name": "陳惠桂"},
+    {"term": 15, "name": "林俊盛"},
+    {"term": 14, "name": "張惠蓉"},
+    {"term": 13, "name": "郭建位"},
+    {"term": 12, "name": "林子騰"},
+    {"term": 11, "name": "邱玲玲"},
+    {"term": 10, "name": "楊玲"}
+  ],
+  "content_modules": ["IMC緣起","宗旨及社歌","組織圖","組織章程","歷屆社長","理監事團隊","行事曆","講師資料","社刊","月例會","活動資訊","活動相簿與影片","次團","入社申請","聯絡方式","付款方式","下載資料"],
+  "activity_groups": ["高爾夫球隊","夫人聯誼會","羽球隊","鐵馬隊","登山隊","歡樂歌舞班"],
+  "notes": ["原站行事曆嵌入 Google Calendar。","原站報名連往外部線上表單；本外掛改為站內報名與管理。","個人資料、銀行資料及歷屆資訊上線前應由 IMC 秘書處複核。"]
+}

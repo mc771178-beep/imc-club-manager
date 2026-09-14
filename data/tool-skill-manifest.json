@@ -1,0 +1,24 @@
+{
+  "plugin": "IMC 社務管理中心",
+  "version": "2.0.0",
+  "artifact_type": "wordpress-plugin",
+  "is_website": false,
+  "tools": [
+    {"id":"event_manager","name":"活動管理工具","status":"ready","solves":["活動資料分散","時間地點反覆詢問","名額與截止日人工管理"]},
+    {"id":"calendar","name":"行事曆工具","status":"ready","solves":["社友不知道近期活動","行程無法加入個人行事曆"]},
+    {"id":"registration","name":"報名候補工具","status":"ready","solves":["外部表單分散","重複報名","額滿仍收件","候補難追蹤"]},
+    {"id":"checkin","name":"現場簽到工具","status":"ready","solves":["紙本點名慢","出席紀錄不完整"]},
+    {"id":"members","name":"社員名冊工具","status":"ready","solves":["社員資料分散","換屆交接困難","屆次職務與次團無法統整"]},
+    {"id":"applications","name":"入社申請工具","status":"ready","solves":["紙本申請","申請資料散落通訊軟體"]},
+    {"id":"notices","name":"公告工具","status":"ready","solves":["公告分散","重要消息難集中查找"]},
+    {"id":"knowledge_base","name":"社務資料庫工具","status":"ready","solves":["章程社刊講師歷屆資料分散","交接時找不到文件"]},
+    {"id":"export","name":"資料匯出工具","status":"ready","solves":["報名及社員名單人工整理"]},
+    {"id":"diagnostics","name":"外掛系統檢查工具","status":"ready","solves":["安裝後不知道資料表與設定是否正常"]}
+  ],
+  "integration_skills": [
+    {"id":"line","name":"LINE Login 與推播技能","status":"credentials-required","requires":["LINE Official Account","Messaging API token","LIFF/Login channel"]},
+    {"id":"payment","name":"活動費與會費金流技能","status":"provider-decision-required","requires":["金流商","商店代號與金鑰","會計及退款規則"]},
+    {"id":"google_calendar","name":"Google Calendar 雙向同步技能","status":"credentials-required","requires":["Google Cloud project","OAuth credentials","calendar id"]},
+    {"id":"qr_image","name":"個人 QR 圖碼技能","status":"next-phase","requires":["QR 產生套件","郵件版型","現場掃描流程"]}
+  ]
+}
